@@ -11,6 +11,7 @@ def get_folder_size(path='.'):
             elif entry.is_dir():
                 total += get_folder_size(entry.path)
             print("hello")
+            print("this is flash man")
     return total
 
 def browse_folder():
