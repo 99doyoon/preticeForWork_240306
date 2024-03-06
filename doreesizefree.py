@@ -10,6 +10,7 @@ def get_folder_size(path='.'):
                 total += entry.stat().st_size
             elif entry.is_dir():
                 total += get_folder_size(entry.path)
+            print("hello")
     return total
 
 def browse_folder():
